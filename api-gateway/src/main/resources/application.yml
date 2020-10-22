@@ -1,0 +1,29 @@
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: payment-service
+          uri: lb://payment-service
+          predicates:
+            - Path=/api/payment**
+        - id: order-service
+          uri: lb://order-service
+          predicates:
+            - Path=/api/order**
+        - id: customer-service
+          uri: lb://customer-service
+          predicates:
+            - Path=/api/customer**
+#    kubernetes:
+#      enabled: false
+  application:
+    name: api-gateway
+server:
+  port: 8080
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_SERVER:http://localhost:8761/eureka}
