@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abc96405-eb97-48a0-b27d-65f0e843afc8" name="Default Changelist" comment="" />
+    <list default="true" id="abc96405-eb97-48a0-b27d-65f0e843afc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/application-kubernetes.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application-kubernetes.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application-kubernetes.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +79,12 @@
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="api-gateway" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="customer-service" type="f1a62948:ProjectNode" />
               </path>
               <path>
@@ -77,6 +97,12 @@
                 <item name="customer-service" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="customer-service" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -95,6 +121,12 @@
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="order-service" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="payment-service" type="f1a62948:ProjectNode" />
               </path>
               <path>
@@ -110,6 +142,12 @@
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="payment-service" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="service-discovery-server" type="f1a62948:ProjectNode" />
               </path>
               <path>
@@ -122,6 +160,12 @@
                 <item name="service-discovery-server" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="service-discovery-server" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -137,6 +181,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="KubernetesApiPersistence">
     <option name="context" value="docker-desktop" />
     <option name="namespace" value="default" />
@@ -149,6 +196,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1jEHlNbFru057OXJLbOKxAE74Eg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -157,6 +207,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
@@ -170,14 +221,16 @@
       <recent name="weitanglau.microservice.customerservice.component" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.customer-service [bootRun]">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Gradle.payment-service [bootJar]">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -201,7 +254,7 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="api-gateway [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="api-gateway [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/api-gateway" />
@@ -212,7 +265,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="bootRun" />
+            <option value="bootJar" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -220,7 +273,7 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="customer-service [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="customer-service [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/customer-service" />
@@ -231,7 +284,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="bootRun" />
+            <option value="bootJar" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -239,7 +292,7 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="order-service [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="order-service [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/order-service" />
@@ -250,7 +303,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="bootRun" />
+            <option value="bootJar" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -258,7 +311,7 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="payment-service [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="payment-service [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/payment-service" />
@@ -269,7 +322,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="bootRun" />
+            <option value="bootJar" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -277,7 +330,7 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="service-discovery-server [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="service-discovery-server [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/service-discovery-server" />
@@ -288,7 +341,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="bootRun" />
+            <option value="bootJar" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -296,13 +349,48 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="weitanglau.microservice.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="customer-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="weitanglau.microservice.customerservice.CustomerServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="weitanglau.microservice.orderservice.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="payment-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="weitanglau.microservice.paymentservice.PaymentServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceDiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-discovery-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="weitanglau.microservice.servicediscoveryserver.ServiceDiscoveryServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.customer-service [bootRun]" />
-        <item itemvalue="Gradle.order-service [bootRun]" />
-        <item itemvalue="Gradle.payment-service [bootRun]" />
-        <item itemvalue="Gradle.api-gateway [bootRun]" />
-        <item itemvalue="Gradle.service-discovery-server [bootRun]" />
+        <item itemvalue="Gradle.service-discovery-server [bootJar]" />
+        <item itemvalue="Gradle.payment-service [bootJar]" />
+        <item itemvalue="Gradle.order-service [bootJar]" />
+        <item itemvalue="Gradle.customer-service [bootJar]" />
+        <item itemvalue="Gradle.api-gateway [bootJar]" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +404,8 @@
       <updated>1603362480683</updated>
       <workItem from="1603362481735" duration="631000" />
       <workItem from="1603371242311" duration="29000" />
-      <workItem from="1603371279561" duration="9398000" />
+      <workItem from="1603371279561" duration="9762000" />
+      <workItem from="1603423528238" duration="9103000" />
     </task>
     <servers />
   </component>
@@ -328,29 +417,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="733" y="137" key="#Auto_Import/0.0.1920.1040@0.0.1920.1040" timestamp="1603379906811" />
-    <state x="684" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603380890925">
+    <state x="684" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603434161354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="684" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603380890925" />
+    <state x="684" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603434161354" />
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1603382791362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603382791362" />
-    <state width="1877" height="336" key="GridCell.Tab.0.bottom" timestamp="1603383102066">
+    <state width="1877" height="336" key="GridCell.Tab.0.bottom" timestamp="1603436759205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603383102066" />
-    <state width="1877" height="336" key="GridCell.Tab.0.center" timestamp="1603383102066">
+    <state width="1877" height="336" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603436759205" />
+    <state width="1877" height="336" key="GridCell.Tab.0.center" timestamp="1603436759205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603383102066" />
-    <state width="1877" height="336" key="GridCell.Tab.0.left" timestamp="1603383102066">
+    <state width="1877" height="336" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603436759205" />
+    <state width="1877" height="336" key="GridCell.Tab.0.left" timestamp="1603436759205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603383102066" />
-    <state width="1877" height="336" key="GridCell.Tab.0.right" timestamp="1603383102066">
+    <state width="1877" height="336" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603436759205" />
+    <state width="1877" height="336" key="GridCell.Tab.0.right" timestamp="1603436759205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603383102066" />
+    <state width="1877" height="336" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603436759205" />
   </component>
 </project>

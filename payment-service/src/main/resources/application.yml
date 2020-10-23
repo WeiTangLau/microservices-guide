@@ -1,9 +1,9 @@
 spring:
   application:
     name: payment-service
-#  cloud:
-#    kubernetes:
-#      enabled: false
+  cloud:
+    kubernetes:
+      enabled: false
 server:
   port: 8081
   forward-headers-strategy: framework

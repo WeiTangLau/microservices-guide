@@ -1,0 +1,67 @@
+version: "3.8"
+services:
+  service-discovery-server:
+    container_name: service-discovery-server
+    image: service-discovery-server:latest
+    ports:
+      - "8761:8761"
+  api-gateway:
+    container_name: api-gateway
+    image: api-gateway:latest
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://service-discovery-server:8761/eureka/
+    ports:
+      - "8080:8080"
+    depends_on:
+      - service-discovery-server
+    links:
+      - service-discovery-server
+  payment-service:
+    container_name: payment-service
+    image: payment-service:latest
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+      - eureka.client.serviceUrl.defaultZone=http://service-discovery-server:8761/eureka/
+    ports:
+      - "8081:8081"
+    deploy:
+        restart_policy:
+                condition: on-failure
+    depends_on:
+      - service-discovery-server
+    links:
+      - service-discovery-server
+  order-service:
+      container_name: order-service
+      image: order-service:latest
+      environment:
+        - SPRING_PROFILES_ACTIVE=docker
+        - eureka.client.serviceUrl.defaultZone=http://service-discovery-server:8761/eureka/
+      ports:
+        - "8082:8082"
+      deploy:
+          restart_policy:
+                  condition: on-failure
+      depends_on:
+        - service-discovery-server
+      links:
+        - service-discovery-server
+  customer-service:
+    container_name: customer-service
+    image: customer-service:latest
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+      - eureka.client.serviceUrl.defaultZone=http://service-discovery-server:8761/eureka/
+    ports:
+      - "8083:8083"
+    deploy:
+        restart_policy:
+                condition: on-failure
+    depends_on:
+      - service-discovery-server
+      - order-service
+      - payment-service
+    links:
+      - service-discovery-server
+      - order-service
+      - payment-service

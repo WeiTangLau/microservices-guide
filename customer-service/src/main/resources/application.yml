@@ -1,9 +1,9 @@
 spring:
   application:
     name: customer-service
-#  cloud:
-#    kubernetes:
-#      enabled: false
+  cloud:
+    kubernetes:
+      enabled: false
 server:
   port: 8083
   forward-headers-strategy: framework

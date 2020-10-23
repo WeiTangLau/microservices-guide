@@ -17,8 +17,8 @@ spring:
           uri: lb://customer-service
           predicates:
             - Path=/api/customer**
-#    kubernetes:
-#      enabled: false
+    kubernetes:
+      enabled: false
   application:
     name: api-gateway
 server:

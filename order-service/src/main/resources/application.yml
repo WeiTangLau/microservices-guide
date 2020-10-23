@@ -1,9 +1,9 @@
 spring:
   application:
     name: order-service
-#  cloud:
-#    kubernetes:
-#      enabled: false
+  cloud:
+    kubernetes:
+      enabled: false
 server:
   port: 8082
   forward-headers-strategy: framework
